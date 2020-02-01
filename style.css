@@ -12,9 +12,20 @@ html {
 }
 
 .wrapper{
-    margin: 1vh auto ;
+    margin: auto;
     flex-direction: column;
     width: 30vw;
-    height: 40vh;
-    /* flex-direction: column; */
+    height: 30vh;
+    justify-content: center;
+}
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+label {
+  margin-bottom: 3em;
+}
+button, input {
+  width: 15vw;
+  margin-bottom: .8em;
 }
